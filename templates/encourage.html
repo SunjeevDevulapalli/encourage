@@ -5,8 +5,15 @@
         <div class="column">
             <h1>Encourage</h1>
             <p>What's on Your Mind?</p>
-            <input type="text" class="form-control" placeholder="Write whatever is on your mind here">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+            <form action="#" method="post">
+                <input type="text" name="user_text" class="form-control" placeholder="Write whatever is on your mind here...">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            {% if content %}
+            <p>{{ content }} </p>
+            {% else %}
+            <p>Let the positivity flow!</p>
+            {% endif %}
         </div>
     </div>
 </div>
