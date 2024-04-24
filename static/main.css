@@ -1,0 +1,15 @@
+.p-with-padding {
+    padding: 20px; 
+}
+
+.form-with-padding {
+    padding: 10px; 
+}
+
+.btn-with-padding {
+    padding: 10px 20px; 
+}
+
+.custom-rounded {
+    border-radius: 20px; 
+}
