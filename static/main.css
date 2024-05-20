@@ -1,15 +1,45 @@
-.p-with-padding {
-    padding: 20px; 
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    color: #FFCF00;
 }
 
-.form-with-padding {
-    padding: 10px; 
+p {
+    color: #245C6C;
 }
 
-.btn-with-padding {
-    padding: 10px 20px; 
+body {
+    background-color: #FAF9F5;
+}
+
+img {
+    border: none;
+}
+
+.custom-blue-link {
+    color: #4498CE;
+}
+
+.btn.btn-primary.btn-blue {
+    background-color: #81DEF8 !important;
+    border-color: #81DEF8 !important;
+}
+
+.btn.btn-primary.btn-blue:hover {
+    background-color: #79D0E8 !important;
+    border-color: #79D0E8 !important;
+}
+
+.form-control.custom-style {
+    background-color: #F4F4F5;
+    color: #245C6C;
+    padding: 12px
+}
+
+.form-control.custom-style::placeholder {
+    color: #999999;
 }
 
 .custom-rounded {
-    border-radius: 20px; 
+    border-radius: 30px
 }

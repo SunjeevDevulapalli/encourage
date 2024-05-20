@@ -8,7 +8,7 @@ api_key = os.getenv("OPENAI_API_KEY")
 
 def get_response(content):
     if content == "":
-        return "Tell me about your day and I'll give you some positive vibes!"
+        return "Tell me about your day and I'll give you some encouragement!"
     else:
         client = OpenAI(
             api_key=api_key,

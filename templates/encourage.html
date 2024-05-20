@@ -4,10 +4,12 @@
     <div class="row justify-content-center">
         <div class="col-11">
             <h1>Encourage</h1>
-            <p>What's on Your Mind?</p>
+            <div class="m-2">
+                <p>A Sample Send & Release Experience</p>
+            </div>
             <form action="#" method="post">
-                <input type="text" name="user_text" class="form-control custom-rounded m-3" placeholder="Write whatever is on your mind here...">
-                <button type="submit" class="btn btn-primary m-2">Submit</button>
+                <input type="text" name="user_text" class="form-control custom-style custom-rounded m-3" placeholder="Write whatever is on your mind here...">
+                <button type="submit" class="btn btn-primary btn-blue m-2">Submit</button>
             </form>
             {% if content %}
             <div class="m-2">
@@ -15,7 +17,7 @@
             </div>
             {% else %}
             <div class="m-2"> 
-                <p>Let the positivity flow!</p>
+                <p>Hey, you got this! Tell me what's on your mind?</p>
             </div>
             {% endif %}
         </div>
